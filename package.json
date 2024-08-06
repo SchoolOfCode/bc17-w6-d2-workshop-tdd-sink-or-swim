@@ -2,7 +2,11 @@
   "name": "soc-tdd-2021-12",
   "version": "0.0.1",
   "description": "Simple codebase for trying TDD",
-  "scripts": {},
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:verbose": "vitest --reporter verbose"
+  },
   "type": "module",
   "author": "Rob Styles",
   "license": "ISC",
